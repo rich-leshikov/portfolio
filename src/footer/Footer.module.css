@@ -1,0 +1,32 @@
+.hireMe {
+  min-height: 40vh;
+  background-color: #b8e3b6;
+
+  display: flex;
+  align-items: center;
+}
+.footerContainer {
+  flex-direction: column;
+}
+.title {
+  margin: 0;
+  background-color: #dedede;
+}
+.sns {
+  margin: 20px;
+  min-width: 210px;
+  border: 1px solid;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3a3a3a;
+}
+.copyright {
+  background-color: #dedede;
+}

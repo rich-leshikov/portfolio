@@ -1,0 +1,57 @@
+.hireMe {
+  min-height: 60vh;
+  background-color: #e3bdb6;
+
+  display: flex;
+  align-items: center;
+}
+.contactsContainer {
+  flex-direction: column;
+  justify-content: start;
+}
+.title {
+  background-color: #dedede;
+}
+.contactsForm {
+  display: flex;
+  flex-direction: column;
+}
+.contactsForm input {
+  margin: 5px;
+  padding: 3px;
+
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f4f4;
+
+  font-size: 16px;
+  color: #4d4d4d;
+}
+.contactsForm textarea {
+  margin: 5px;
+  padding: 3px;
+  resize: none;
+  overflow: auto;
+
+  width: 400px;
+  height: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f4f4;
+
+  font-size: 16px;
+  color: #4d4d4d;
+}
+.button {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c28585;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
