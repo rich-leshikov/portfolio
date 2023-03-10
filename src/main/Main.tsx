@@ -7,14 +7,14 @@ type MainPropsType = {}
 export function Main(props: MainPropsType) {
   return (
     <div className={s.main}>
-      <div className={`${c.container} ${s.mainBlock}`}>
+      <div className={`${c.container} ${s.mainContainer}`}>
         <div className={s.text}>
           <span>Hi there!</span>
           <h1>My name is Slim Shady</h1>
           <p>Frontend developer</p>
         </div>
         <div className={s.photo}>
-          <img src={require('../common/img/king_of_lizards.jpg')} alt={'main avatar'}/>
+          <img src={require('../common/img/slimshady.png')} alt={'main avatar'}/>
         </div>
       </div>
     </div>

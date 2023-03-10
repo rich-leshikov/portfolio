@@ -31,7 +31,9 @@
   align-items: start;
 }
 .title {
-  margin: 0;
+  background-color: #dedede;
 }
 .description {
+  margin: 0 30px 15px 0;
+  background-color: #dedede;
 }

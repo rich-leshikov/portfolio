@@ -1,5 +1,5 @@
 .hireMe {
-  min-height: 40vh;
+  min-height: 50vh;
   background-color: #b8e3b6;
 
   display: flex;
@@ -9,12 +9,13 @@
   flex-direction: column;
 }
 .title {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   background-color: #dedede;
 }
 .sns {
-  margin: 20px;
-  min-width: 210px;
+  margin: 50px 0;
+  width: 300px;
   border: 1px solid;
 
   display: flex;
@@ -29,4 +30,17 @@
 }
 .copyright {
   background-color: #dedede;
+}
+@media (max-width: 560px) {
+  .hireMe {
+    min-height: 30vh;
+  }
+  .sns {
+    margin: 20px 0;
+    width: 80%;
+  }
+  .socialIcon {
+    width: 40px;
+    height: 40px;
+  }
 }

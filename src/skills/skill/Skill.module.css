@@ -13,8 +13,9 @@
   width: 60px;
 }
 .title {
-  margin: 0;
+  background-color: #dedede;
 }
 .description {
   text-align: center;
+  background-color: #dedede;
 }

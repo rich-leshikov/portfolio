@@ -1,5 +1,5 @@
 .hireMe {
-  min-height: 60vh;
+  min-height: 80vh;
   background-color: #e3bdb6;
 
   display: flex;
@@ -10,11 +10,14 @@
   justify-content: start;
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 60px;
   background-color: #dedede;
 }
 .contactsForm {
   display: flex;
   flex-direction: column;
+  /*justify-content: center;*/
 }
 .contactsForm input {
   margin: 5px;
@@ -54,4 +57,15 @@
   cursor: pointer;
   color: #fff;
   font-size: 20px;
+}
+@media (max-width: 560px) {
+  .contactsForm {
+    width: 100%;
+  }
+  .contactsForm input {
+    width: 100%;
+  }
+  .contactsForm textarea {
+    width: 100%;
+  }
 }

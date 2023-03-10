@@ -23,6 +23,10 @@ export function Skills(props: SkillsPropsType) {
             title={'React'}
             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
           />
+          <Skill
+            title={'HTML&CSS'}
+            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+          />
         </div>
       </div>
     </div>

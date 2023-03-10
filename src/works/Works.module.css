@@ -1,11 +1,14 @@
 .worksBlock {
-  min-height: 100vh;
+  padding: 70px 0;
+  min-height: 80vh;
   background-color: #ede1f1;
 
   display: flex;
   align-items: center;
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 80px;
   background-color: #dedede;
 }
 .worksContainer {
@@ -20,9 +23,10 @@
   flex-wrap: wrap;
   align-items: center;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
   .worksBlock {
-    height: 120vh;
+    padding: 50px 0;
+    min-height: 110vh;
   }
   .works {
     justify-content: space-around;

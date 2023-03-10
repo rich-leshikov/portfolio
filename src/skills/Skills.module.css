@@ -1,5 +1,6 @@
 .skillsBlock {
-  min-height: 100vh;
+  padding: 70px 0;
+  min-height: 50vh;
   background-color: #dfefd6;
 
   display: flex;
@@ -10,6 +11,8 @@
   justify-content: start;
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 80px;
   background-color: #dedede;
 }
 .skills {
@@ -22,7 +25,8 @@
 }
 @media (max-width: 650px) {
   .skillsBlock {
-    height: 110vh;
+    padding: 50px 0;
+    min-height: 110vh;
   }
   .skills {
     justify-content: space-around;
